@@ -58,7 +58,7 @@ const bgMusic = new Audio(import.meta.env.BASE_URL + 'happy_birthday.mp3');
 bgMusic.loop = true;
 bgMusic.volume = 0.4;
 
-const woofSound = new Audio(import.meta.env.BASE_URL + 'woof.mp3');
+const woofSound = new Audio(import.meta.env.BASE_URL + 'bark.mp3');
 let duckTimeout: number | undefined;
 
 const dogEmojis = ['🐶', '🐕', '🐩', '🦮', '🐕‍🦺', '🐾', '🐕‍🦺'];
